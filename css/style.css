@@ -130,3 +130,110 @@ footer #sucursales li a:hover{
 footer #sucursales li{
     list-style: none;
 }
+
+#preguntas {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.preguntas-card {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 24px rgba(20, 40, 80, 0.06);
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: 1fr 360px;
+    gap: 22px;
+}
+
+.preguntas-title {
+    grid-column: 1 / -1;
+    font-size: 22px;
+    color: #0f1724;
+    margin-bottom: 6px;
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.faq-item {
+    background-color: #fbfdff;
+    border: 1px solid #e6eef8;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.faq-question {
+    font-size: 16px;
+    margin-bottom: 6px;
+    color: #0f1724;
+}
+
+.faq-answer {
+    font-size: 14px;
+    color: #475569;
+    line-height: 1.4;
+}
+
+.ask-box {
+    border: 1px solid #e6eef8;
+    padding: 16px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: start;
+    min-height: 220px;
+}
+
+.ask-title {
+    font-size: 16px;
+    color: #0f1724;
+    margin-bottom: 2px;
+}
+
+.ask-sub {
+    font-size: 13px;
+    color: #64748b;
+    margin-bottom: 8px;
+}
+
+.ask-box input[type="text"],
+.ask-box input[type="email"],
+.ask-box textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #dbe7f5;
+    background-color: #ffffff;
+    font-size: 14px;
+    color: #0f1724;
+    resize: vertical;
+}
+
+.ask-box input:focus,
+.ask-box textarea:focus {
+    outline: none;
+    border-color: #7cc0ff;
+    box-shadow: 0 6px 18px rgba(36,133,255,0.06);
+}
+
+.ask-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-send {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(90deg,#2563eb,#06b6d4);
+    color: #ffffff;
+    font-weight: 600;
+}
