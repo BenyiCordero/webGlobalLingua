@@ -15,8 +15,9 @@
             <ul>
                 <li><a href="#inicio">Información</a></li>
                 <li><a href="#cursos">Cursos</a></li>
-                <li><a href="#sucursales">Sucursales</a></li>
+                <li><a href="#preguntas">Preguntas</a></li>
                 <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#sucursales">Sucursales</a></li>
             </ul>
         </nav>
     </header>
@@ -30,20 +31,65 @@
             <nav>
                 <ul>
                     <li class="cursoBox">
-                        <a href=""><img src="assets/english_course.jpg" alt="INGLES"></a>
+                        <a href="formulario.html"><img src="assets/english_course.jpg" alt="INGLES"></a>
                         <h2>Inglés</h2>
                     </li>
                     <li class="cursoBox">
-                        <a href=""><img src="assets/french_course.jpg" alt="FRANCES"></a>
+                        <a href="formulario.html"><img src="assets/french_course.jpg" alt="FRANCES"></a>
                         <h2>Francés</h2>
                     </li>
                     <li class="cursoBox">
-                        <a href=""><img src="assets/german_course.jpg" alt=""></a>
+                        <a href="formulario.html"><img src="assets/german_course.jpg" alt=""></a>
                         <h2>Alemán</h2>
                     </li>
                 </ul>
             </nav>
         </article>
+        <section id="preguntas">
+            <div class="preguntas-card">
+                <h2 class="preguntas-title">Preguntas frecuentes</h2>
+
+                <div class="faq-list">
+                    <article class="faq-item">
+                        <h3 class="faq-question">¿Qué niveles ofrecen?</h3>
+                        <p class="faq-answer">Ofrecemos niveles de Principiante, Intermedio y Avanzado, con rutas de aprendizaje estructuradas para cada etapa.</p>
+                    </article>
+
+                    <article class="faq-item">
+                        <h3 class="faq-question">¿Hay clases en línea y presenciales?</h3>
+                        <p class="faq-answer">Sí. Tenemos modalidades Presencial, Online y Híbrida para ajustarnos a tu disponibilidad.</p>
+                    </article>
+
+                    <article class="faq-item">
+                        <h3 class="faq-question">¿Ofrecen preparación para certificaciones?</h3>
+                        <p class="faq-answer">Sí, ofrecemos cursos de preparación para exámenes internacionales como TOEFL, IELTS y otros según el idioma.</p>
+                    </article>
+
+                    <article class="faq-item">
+                        <h3 class="faq-question">¿Cuál es la duración típica de los cursos?</h3>
+                        <p class="faq-answer">Los cursos varían: módulos intensivos de 4-8 semanas y cursos regulares de 3 a 6 meses, según el nivel y la carga horaria.</p>
+                    </article>
+                </div>
+
+                <div class="ask-box">
+                    <h3 class="ask-title">¿Tienes otra pregunta?</h3>
+                    <p class="ask-sub">Escríbenos y te responderemos pronto.</p>
+
+                    <label for="ask-name" class="visually-hidden">Nombre</label>
+                    <input type="text" id="ask-name" name="ask-name" placeholder="Tu nombre">
+
+                    <label for="ask-email" class="visually-hidden">Correo</label>
+                    <input type="email" id="ask-email" name="ask-email" placeholder="Correo electrónico">
+
+                    <label for="ask-message" class="visually-hidden">Pregunta</label>
+                    <textarea id="ask-message" name="ask-message" rows="4" placeholder="Escribe tu pregunta aquí..."></textarea>
+
+                    <div class="ask-actions">
+                        <button type="submit" class="btn-send">Enviar pregunta</button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <nav>
