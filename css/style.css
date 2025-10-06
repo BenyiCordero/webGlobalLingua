@@ -11,7 +11,7 @@ body{
 }
 
 header {
-    background-image: url('/assets/header_img.png');
+    background-image: url('../assets/header_img.png');
     background-size: cover;
     background-position: top;
     display: flex;
@@ -76,7 +76,7 @@ main #cursos nav ul .cursoBox a img{
 }
 
 footer{
-    background-image: url('/assets/header_img.png');
+    background-image: url('../assets/header_img.png');
     background-position: bottom;
     background-size: cover;
     background-color: rgba(217, 181, 181, 0.8);
